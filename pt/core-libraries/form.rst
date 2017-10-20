@@ -182,9 +182,8 @@ Prossiga para Criação do HTML com o FormHelper para ver o resultado.
 Criando o HTML com FormHelper
 =============================
 
-Uma vez sido criado uma class Form, 
-Once you've created a Form class, você provavelmente vai querer criar um formulário
-HTML para isso. FormHelper compreende objetos Form apenas como entidades ORM::
+Assim que tenha sido criado uma class Form, você provavelmente vai querer criar um formulário
+HTML para isso. O FormHelper compreende objetos Form apenas como entidades ORM::
 
     echo $this->Form->create($contact);
     echo $this->Form->input('name');
